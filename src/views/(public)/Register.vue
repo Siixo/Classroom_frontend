@@ -13,49 +13,69 @@
           DOWN<br />THE CODE
         </h1>
 
-        <!-- Form -->
-        <form @submit="submitForm" class="flex flex-col gap-4">
+        <!-- Register Form -->
+        <form class="flex flex-col gap-4">
           <div class="relative">
             <span
               class="absolute left-3 top-1/2 -translate-y-1/2 text-green-400"
+              >📧</span
             >
-              📧
-            </span>
             <input
-              v-model="formData.email"
               type="email"
               placeholder="Email"
-              required
               class="text-white w-full pl-10 pr-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 bg-white/50"
+              required
             />
           </div>
           <div class="relative">
             <span
               class="absolute left-3 top-1/2 -translate-y-1/2 text-green-400"
+              >🔒</span
             >
-              🔒
-            </span>
             <input
-              v-model="formData.password"
               type="password"
               placeholder="Mot de passe"
-              required
               class="text-white w-full pl-10 pr-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 bg-white/50"
+              required
             />
           </div>
-
+          <div class="relative">
+            <span
+              class="absolute left-3 top-1/2 -translate-y-1/2 text-green-400"
+              >👤</span
+            >
+            <input
+              type="text"
+              placeholder="Prénom"
+              class="text-white w-full pl-10 pr-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 bg-white/50"
+              required
+            />
+          </div>
+          <div class="relative">
+            <span
+              class="absolute left-3 top-1/2 -translate-y-1/2 text-green-400"
+              >👤</span
+            >
+            <input
+              type="text"
+              placeholder="Nom"
+              class="text-white w-full pl-10 pr-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 bg-white/50"
+              required
+            />
+          </div>
           <button
             type="submit"
             class="bg-login text-black py-2 rounded-lg hover:bg-green-500 transition-colors w-40 mx-auto"
           >
-            Connecte toi !
+            Inscription
           </button>
         </form>
 
         <!-- Links -->
         <p class="text-white text-sm mt-2">
-          Ou inscris toi par <a href="#" class="underline">ici</a><br />
-          <a href="#" class="underline">Mot de passe oublié</a>
+          Ou inscris toi par
+          <RouterLink to="#" class="underline">ici</RouterLink><br />
+          <RouterLink to="#" class="underline">Mot de passe oublié</RouterLink>
         </p>
       </div>
     </div>
@@ -68,5 +88,3 @@
   clip-path: polygon(0 0, 20% 0, 100% 100%, 0% 100%);
 }
 </style>
-
-<script></script>

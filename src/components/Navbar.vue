@@ -7,7 +7,7 @@ import { RouterLink } from "vue-router";
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
-          <a class="block text-teal-600" href="#">
+          <a class="block text-teal-600" href="/">
             <span class="sr-only">Home</span>
             <img
               src="/down-the-code-high-resolution-logo-transparent.png"
