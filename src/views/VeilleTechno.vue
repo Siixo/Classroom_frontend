@@ -47,7 +47,7 @@
       </div>
     </article>
     <article
-      class="flex bg-white transition hover:shadow-xl rounded-lg overflow-hidden p-4"
+      class="flex bg-gray-100 transition hover:shadow-xl rounded-lg overflow-hidden p-4"
     >
       <div class="rotate-180 p-2 [writing-mode:vertical-lr]">
         <time
