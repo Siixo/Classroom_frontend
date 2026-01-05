@@ -39,7 +39,7 @@
         <div class="sm:flex sm:items-end sm:justify-end">
           <a
             href="#"
-            class="block bg-blue-300 px-5 py-3 text-center text-xs font-bold text-gray-900 uppercase transition hover:bg-blue-400"
+            class="block bg-accent px-5 py-3 text-center text-xs font-bold text-white uppercase transition hover:bg-blue-400 rounded-md"
           >
             Lire l'article
           </a>
@@ -85,7 +85,7 @@
         <div class="sm:flex sm:items-end sm:justify-end">
           <a
             href="#"
-            class="block bg-blue-300 px-5 py-3 text-center text-xs font-bold text-gray-900 uppercase transition hover:bg-blue-400"
+            class="block bg-accent px-5 py-3 text-center text-xs font-bold text-white uppercase transition hover:bg-blue-400 rounded-md"
           >
             Lire l'article
           </a>
@@ -131,7 +131,7 @@
         <div class="sm:flex sm:items-end sm:justify-end">
           <a
             href="#"
-            class="block bg-blue-300 px-5 py-3 text-center text-xs font-bold text-gray-900 uppercase transition hover:bg-blue-400"
+            class="block bg-accent px-5 py-3 text-center text-xs font-bold text-white uppercase transition hover:bg-blue-400 rounded-md"
           >
             Lire l'article
           </a>

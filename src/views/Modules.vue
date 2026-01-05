@@ -5,7 +5,7 @@
     <div class="flex justify-center">
       <RouterLink
         to="/modules"
-        class="w-56 py-4 bg-accent text-white text-2xl font-bold py-2 px-4 rounded-lg hover:bg-orange-500 transition-colors flex items-center justify-center gap-6 -translate-x-25 m-4"
+        class="w-56 bg-accent text-white text-2xl font-bold py-2 px-4 rounded-lg hover:bg-orange-500 transition-colors flex items-center justify-center gap-6 -translate-x-25 m-4"
       >
         Leçons
         <svg viewBox="0 0 96 96" class="w-10 h-10">
